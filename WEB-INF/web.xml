@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+>
+
+  <servlet>
+    <servlet-name>hello</servlet-name>
+    <servlet-class>chapter3.Hello</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>greeting</servlet-name>
+    <servlet-class>chapter5.Greeting</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>greeting</servlet-name>
+    <url-pattern>/chapter5/greeting</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>greeting2</servlet-name>
+    <servlet-class>chapter5.Greeting2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>greeting2</servlet-name>
+    <url-pattern>/chapter5/greeting2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>total</servlet-name>
+    <servlet-class>chapter5.Total</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>total</servlet-name>
+    <url-pattern>/chapter5/total</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>select</servlet-name>
+    <servlet-class>chapter6.Select</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>select</servlet-name>
+    <url-pattern>/chapter6/select</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>checkbox</servlet-name>
+    <servlet-class>chapter6.Checkbox</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>checkbox</servlet-name>
+    <url-pattern>/chapter6/checkbox</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>control</servlet-name>
+    <servlet-class>chapter6.Control</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>control</servlet-name>
+    <url-pattern>/chapter6/control</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>reserve</servlet-name>
+    <servlet-class>chapter6.Reserve</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>reserve</servlet-name>
+    <url-pattern>/chapter6/reserve</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>forward</servlet-name>
+    <servlet-class>chapter9.Forward</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>forward</servlet-name>
+    <url-pattern>/forward</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>include</servlet-name>
+    <servlet-class>chapter9.Include</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>include</servlet-name>
+    <url-pattern>/include</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>redirect</servlet-name>
+    <servlet-class>chapter9.Redirect</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>redirect</servlet-name>
+    <url-pattern>/redirect</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>filterSample</servlet-name>
+    <servlet-class>chapter10.FilterSample</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>filterSample</servlet-name>
+    <url-pattern>/filterSample</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <filter-name>hellofilter</filter-name>
+    <filter-class>chapter10.HelloFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>hellofilter</filter-name>
+    <url-pattern>/hello</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>hellofilter2</filter-name>
+    <filter-class>chapter10.HelloFilter2</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>hellofilter2</filter-name>
+    <url-pattern>/hello</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>lifecycle</servlet-name>
+    <servlet-class>chapter11.LifeCycle</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>lifecycle</servlet-name>
+    <url-pattern>/lifecycle</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>countthread</servlet-name>
+    <servlet-class>chapter11.CountThread</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>countthread</servlet-name>
+    <url-pattern>/countthread</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>countthread2</servlet-name>
+    <servlet-class>chapter11.CountThread2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>countthread2</servlet-name>
+    <url-pattern>/countthread2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>request</servlet-name>
+    <servlet-class>chapter12.Request</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>request</servlet-name>
+    <url-pattern>/request</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>response</servlet-name>
+    <servlet-class>chapter12.Response</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>response</servlet-name>
+    <url-pattern>/response</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>request2</servlet-name>
+    <servlet-class>chapter12.Request2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>request2</servlet-name>
+    <url-pattern>/request2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>all</servlet-name>
+    <servlet-class>chapter14.All</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>all</servlet-name>
+    <url-pattern>/all</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>search</servlet-name>
+    <servlet-class>chapter14.Search</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>search</servlet-name>
+    <url-pattern>/chapter14/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>insert</servlet-name>
+    <servlet-class>chapter14.Insert</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>insert</servlet-name>
+    <url-pattern>/chapter14/insert</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>transaction</servlet-name>
+    <servlet-class>chapter14.Transaction</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>transaction</servlet-name>
+    <url-pattern>/chapter14/transaction</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>search2</servlet-name>
+    <servlet-class>chapter14.Search2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>search2</servlet-name>
+    <url-pattern>/chapter14/search2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>nobeans</servlet-name>
+    <servlet-class>chapter15.NoBeans</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>nobeans</servlet-name>
+    <url-pattern>/nobeans</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>bean</servlet-name>
+    <servlet-class>chapter15.Bean</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>bean</servlet-name>
+    <url-pattern>/bean</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter15/search</servlet-name>
+    <servlet-class>chapter15.Search</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter15/search</servlet-name>
+    <url-pattern>/chapter15/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter15/insert</servlet-name>
+    <servlet-class>chapter15.Insert</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter15/insert</servlet-name>
+    <url-pattern>/chapter15/insert</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter15/insert2</servlet-name>
+    <servlet-class>chapter15.Insert2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter15/insert2</servlet-name>
+    <url-pattern>/chapter15/insert2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>attribute</servlet-name>
+    <servlet-class>chapter16.Attribute</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>attribute</servlet-name>
+    <url-pattern>/attribute</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>attribute2</servlet-name>
+    <servlet-class>chapter16.Attribute2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>attribute2</servlet-name>
+    <url-pattern>/attribute2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter16/search</servlet-name>
+    <servlet-class>chapter16.Search</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter16/search</servlet-name>
+    <url-pattern>/chapter16/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter17/count</servlet-name>
+    <servlet-class>chapter17.Count</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter17/count</servlet-name>
+    <url-pattern>/chapter17/count</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter17/cart-add</servlet-name>
+    <servlet-class>chapter17.CartAdd</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter17/cart-add</servlet-name>
+    <url-pattern>/chapter17/cart-add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter17/cart-get</servlet-name>
+    <servlet-class>chapter17.CartGet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter17/cart-get</servlet-name>
+    <url-pattern>/chapter17/cart-get</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter17/cart-remove</servlet-name>
+    <servlet-class>chapter17.CartRemove</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter17/cart-remove</servlet-name>
+    <url-pattern>/chapter17/cart-remove</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter17/cart-invalidate</servlet-name>
+    <servlet-class>chapter17.CartInvalidate</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter17/cart-invalidate</servlet-name>
+    <url-pattern>/chapter17/cart-invalidate</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter18/add</servlet-name>
+    <servlet-class>chapter18.Add</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter18/add</servlet-name>
+    <url-pattern>/chapter18/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter18/get</servlet-name>
+    <servlet-class>chapter18.Get</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter18/get</servlet-name>
+    <url-pattern>/chapter18/get</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter18/count</servlet-name>
+    <servlet-class>chapter18.Count</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter18/count</servlet-name>
+    <url-pattern>/chapter18/count</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter18/remove</servlet-name>
+    <servlet-class>chapter18.Remove</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter18/remove</servlet-name>
+    <url-pattern>/chapter18/remove</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter19/param-servlet</servlet-name>
+    <servlet-class>chapter19.ParamServlet</servlet-class>
+
+    <init-param>
+      <param-name>message</param-name>
+      <param-value>servlet-init-param</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter19/param-servlet</servlet-name>
+    <url-pattern>/chapter19/param-servlet</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <filter-name>chapter19/param-filter</filter-name>
+    <filter-class>chapter19.ParamFilter</filter-class>
+
+    <init-param>
+      <param-name>message</param-name>
+      <param-value>filter-init-param</param-value>
+    </init-param>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>chapter19/param-filter</filter-name>
+    <url-pattern>/chapter19/param-servlet</url-pattern>
+  </filter-mapping>
+
+  <context-param>
+    <param-name>message</param-name>
+    <param-value>context-param</param-value>
+  </context-param>
+
+  <servlet>
+    <servlet-name>chapter19/param-context</servlet-name>
+    <servlet-class>chapter19.ParamContext</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter19/param-context</servlet-name>
+    <url-pattern>/chapter19/param-context</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter19/file</servlet-name>
+    <servlet-class>chapter19.File</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter19/file</servlet-name>
+    <url-pattern>/chapter19/file</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter19/attribute</servlet-name>
+    <servlet-class>chapter19.Attribute</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter19/attribute</servlet-name>
+    <url-pattern>/chapter19/attribute</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter19/attribute2</servlet-name>
+    <servlet-class>chapter19.Attribute2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter19/attribute2</servlet-name>
+    <url-pattern>/chapter19/attribute2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter19/attribute3</servlet-name>
+    <servlet-class>chapter19.Attribute3</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter19/attribute3</servlet-name>
+    <url-pattern>/chapter19/attribute3</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter19/attribute4</servlet-name>
+    <servlet-class>chapter19.Attribute4</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter19/attribute4</servlet-name>
+    <url-pattern>/chapter19/attribute4</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter20/tag</servlet-name>
+    <servlet-class>chapter20.Tag</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter20/tag</servlet-name>
+    <url-pattern>/chapter20/tag</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter21/el</servlet-name>
+    <servlet-class>chapter21.EL</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter21/el</servlet-name>
+    <url-pattern>/chapter21/el</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>chapter22/jstl</servlet-name>
+    <servlet-class>chapter22.JSTL</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>chapter22/jstl</servlet-name>
+    <url-pattern>/chapter22/jstl</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>tool/front-controller</servlet-name>
+    <servlet-class>tool.FrontController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>tool/front-controller</servlet-name>
+    <url-pattern>*.action</url-pattern>
+  </servlet-mapping>
+
+</web-app>
